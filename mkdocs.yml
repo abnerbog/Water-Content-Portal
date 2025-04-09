@@ -1,7 +1,7 @@
 site_name: CUAHSI Water Content Portal
 repo_name: Water-Content-Portal
 repo_url: https://github.com/CUAHSI/Water-Content-Portal
-edit_uri: blob/main/docs/
+edit_uri: 'https://cuahsi-water-portal.netlify.app/admin'
 
 theme:
   name: "material"
