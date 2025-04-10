@@ -10,7 +10,7 @@ media_folder: "site/assets"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "protocols"
+  - name: "docs/Protocols"
     label: "Data Collection Protocols"
     folder: "docs/Protocols"
     create: true
