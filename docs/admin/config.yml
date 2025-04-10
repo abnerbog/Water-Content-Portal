@@ -12,7 +12,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "doc"
     label: "Content"
-    folder: "docs"
+    folder: "../"
     create: true
     nested:
       depth: 100 # max depth to show in the collection tree
