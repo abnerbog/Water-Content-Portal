@@ -10,9 +10,9 @@ media_folder: "site/assets"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "doc"
-    label: "Content"
-    folder: "../"
+  - name: "protocols"
+    label: "Data collection protocols"
+    folder: "docs/Protocols"
     create: true
     nested:
       depth: 100 # max depth to show in the collection tree
