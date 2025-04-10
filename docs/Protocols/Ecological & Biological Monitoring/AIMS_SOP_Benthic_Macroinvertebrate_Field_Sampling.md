@@ -1,3 +1,7 @@
+---
+title: Benthic Macroinvertebrate Field Sampling
+---
+
 **AIMS SOP - Benthic Macroinvertebrate Field Sampling, Version 1.3**
 
 **Daniel C. Allen [Pennsylvania State University], Michelle H. Busch [University of Kansas], Released 02/2024**
