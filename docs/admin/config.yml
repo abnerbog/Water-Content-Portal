@@ -17,7 +17,7 @@ collections:
     nested:
       depth: 100
       summary: "{{title}}"
-    slug: "{{slug}}"
+    slug: "{{title | slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
