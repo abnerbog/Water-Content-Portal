@@ -18,7 +18,7 @@ collections:
       depth: 100
       summary: "{{title}}"
     slug: "{{title | slug}}"
-    preview_path: Protocols/{{slug}}
+    preview_path: "protocols/{{nested.slug}}/{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
