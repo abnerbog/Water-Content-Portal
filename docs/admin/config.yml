@@ -10,15 +10,22 @@ media_folder: "site/assets"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "protocols"
-    label: "Data Collection Protocols"
-    folder: "docs/Protocols"
+  - name: "ecological"
+    label: "Ecological & Biological Monitoring Protocols"
+    folder: "docs/Protocols/ecological-biological-monitoring"
     create: true
-    nested:
-      depth: 100
-      summary: "{{title}}"
     slug: "{{title | slug}}"
-    preview_path: "protocols/{{nested.slug}}/{{slug}}"
+    preview_path: "protocols/ecological-biological-monitoring/{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "water_quality"
+    label: "Surface Water Quality Protocols"
+    folder: "docs/Protocols/surface-water-quality"
+    create: true
+    slug: "{{title | slug}}"
+    preview_path: "protocols/surface-water-quality/{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
