@@ -37,6 +37,6 @@ nav:
   - Home: index.md
   - "Field Data Collection Protocols":
     - "Surface Water Quality": 
-      - "[AIMS] Surface Water Chemistry Field Sampling": Protocols/surface-water-quality/aims_sop_surface_water_chemistry_field_sampling.md
+      - "[AIMS] Surface Water Chemistry Field Sampling": Protocols/Surface-Water-Quality/AIMS_SOP_Surface_Water_Chemistry_Field_Sampling.md
     - "Ecological & Biological Monitoring": 
-      - "[AIMS] Benthic Macroinvertebrate Field Sampling": Protocols/ecological-biological-monitoring/aims_sop_benthic_macroinvertebrate_field_sampling.md
+      - "[AIMS] Benthic Macroinvertebrate Field Sampling": Protocols/Ecological-Biological-Monitoring/AIMS_SOP_Benthic_Macroinvertebrate_Field_Sampling.md
