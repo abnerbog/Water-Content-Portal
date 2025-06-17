@@ -5,7 +5,15 @@ channels:
 dependencies:
   - python=3.10
   - pip
+  - r-base=4.1
+  - r-knitr
+  - r-tidyverse
+  - r-irkernel
   - pip:
       - mkdocs
       - mkdocs-material
       - mkdocs-git-revision-date-localized-plugin
+      - mkdocs-jupyter
+      - mkquartodocs
+      - pandas
+      - matplotlib
