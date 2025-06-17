@@ -28,7 +28,9 @@ plugins:
   - search
   - git-revision-date-localized:
       locale: en
-      type: datetime  
+      type: datetime
+  - mkdocs-jupyter
+  - mkquartodocs
 
 markdown_extensions:
   - tables
