@@ -71,3 +71,7 @@
 	path = book/workshops/hydroviz
 	url = https://github.com/hydrokeira/CUAHSI_HydroViz/
 	branch = main
+[submodule "book/courseware/analytic_gw_book"]
+	path = book/courseware/analytic_gw_book
+	url = https://github.com/abnerbog/analytic_gw_book
+	branch = add-cuahsi-landing-page

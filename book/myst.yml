@@ -38,6 +38,7 @@ project:
             - file: 'courseware/hydroinformatics/15-Watershed-Delineation/15-Watershed-Delineation-and-Analysis.md'        
             - file: 'courseware/hydroinformatics/16-Intro-Modeling-HBV/16-Modeling-Getting-Started-HBV.md'
             - file: 'courseware/hydroinformatics/17-calibrate-model-for-loops/17-Calibrate-HBV.md'
+        - file: 'courseware/analytic_gw_book/cuahsi/analytical-groundwater-modeling.md'
     - file: code-labs/code-labs.md
       children:
         - file: 'code-labs/notebooks/Science Examples/Detecting Atmospheric Rivers from CESM2 LENS Data/Access_IVT_and_Explore_AR_myst.ipynb'      
