@@ -31,8 +31,8 @@ site:
     <div class="home-stat-label">Lessons, labs &amp; activities</div>
   </div>
   <div class="home-stat">
-    <div class="home-stat-number">5</div>
-    <div class="home-stat-label">Resource categories</div>
+    <div class="home-stat-number">54</div>
+    <div class="home-stat-label">Countries reached</div>
   </div>
   <div class="home-stat">
     <div class="home-stat-number">CC BY 4.0</div>
