@@ -10,7 +10,6 @@ site:
 
 <div class="home-hero" aria-label="CUAHSI Water Content Portal">
   <div class="home-hero-inner">
-    <span class="home-kicker">CUAHSI Open Learning Platform</span>
     <div class="home-title">Open learning materials for the <span class="home-title-accent">water sciences</span></div>
     <div class="home-blurb">A community-built, living resource where water researchers and educators host, share, and get credit for courseware, code labs, workshops, protocols, and impact stories.</div>
     <div class="home-actions">
