@@ -22,4 +22,10 @@ Structured Academic Curriculum provides semester-long paths, syllabi, and lectur
 
 ## Available Resources
 
-- **[Hydroinformatics Textbook](hydroinformatics)**: A comprehensive guide to common hydrology data analyses using R.
+<div class="resource-gallery">
+  <a class="gallery-card" href="/hydroinformatics">
+    <img class="gallery-cover" src="../images/thumbnails/hydroinformatics.png" alt="" />
+    <span class="gallery-title">Hydroinformatics Textbook</span>
+    <span class="gallery-description">A comprehensive guide to common hydrology data analyses using R.</span>
+  </a>
+</div>
