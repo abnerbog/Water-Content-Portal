@@ -27,5 +27,7 @@ Structured Academic Curriculum provides semester-long paths, syllabi, and lectur
     <img class="gallery-cover" src="../images/thumbnails/hydroinformatics.png" alt="" />
     <span class="gallery-title">Hydroinformatics Textbook</span>
     <span class="gallery-description">A comprehensive guide to common hydrology data analyses using R.</span>
+    <span class="gallery-tags"><span class="gallery-tag">hydrology</span><span class="gallery-tag">statistics</span><span class="gallery-tag">geospatial</span><span class="gallery-tag">modeling</span></span>
+    <span class="gallery-tags"><span class="gallery-tag gallery-tag-tool">r</span><span class="gallery-tag gallery-tag-tool">dataRetrieval</span></span>
   </a>
 </div>
