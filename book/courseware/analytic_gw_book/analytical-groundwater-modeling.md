@@ -28,6 +28,7 @@ affiliations:
     url: https://www.edinsi.nl/
 subject: Courseware
 github: https://github.com/pythongroundwaterbook/analytic_gw_book
+edit_url: https://github.com/CUAHSI/Water-Content-Portal/edit/develop/book/courseware/analytic_gw_book/analytical-groundwater-modeling.md
 ---
 
 !["Analytical Groundwater Modelling"](../../images/analytical-groundwater-modelling-book.png)
