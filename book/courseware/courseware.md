@@ -28,4 +28,11 @@ Structured Academic Curriculum provides semester-long paths, syllabi, and lectur
     <span class="gallery-title">Hydroinformatics Textbook</span>
     <span class="gallery-description">A comprehensive guide to common hydrology data analyses using R.</span>
   </a>
+    <a class="gallery-card" href="/analytical-groundwater-modeling">
+    <img class="gallery-cover" src="../images/thumbnails/analytical-groundwater-modeling.png" alt="" />
+    <span class="gallery-title">Analytical Groundwater Modeling</span>
+    <span class="gallery-description">A hands-on introduction to groundwater flow and analytical modeling, with interactive Python examples and exercises.</span>
+    <span class="gallery-tags"><span class="gallery-tag">groundwater</span><span class="gallery-tag">modeling</span></span>
+    <span class="gallery-tags"><span class="gallery-tag gallery-tag-tool">python</span><span class="gallery-tag gallery-tag-tool">jupyter</span></span>
+  </a>
 </div>
