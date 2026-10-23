@@ -1,13 +1,16 @@
 ---
+subject: Resources
 title: Code Labs
+subtitle: "The \"Workbench\" for applied technical skills and reproducible science."
 authors:
   id: cuahsi
 date: 2026-03-23
 ---
 
-[🏠 Back to Home](/)
 
-The "Workbench" for applied technical skills and reproducible science.
+<div class="portal-page-marker"></div>
+
+[🏠 Back to Home](/)
 
 <div style="background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%); padding: 1rem 1.5rem; color: #003366; margin-bottom: 2rem; border-radius: 8px; border: 1px solid #b3e5fc;">
 
