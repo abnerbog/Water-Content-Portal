@@ -25,5 +25,7 @@ Short modules and technical webinars for rapid learning and professional develop
     <img class="gallery-cover" src="../images/thumbnails/hydroviz.png" alt="" />
     <span class="gallery-title">HydroViz Teaching Modules</span>
     <span class="gallery-description">A set of three guided activities built around an interactive app for exploring hydrologic and geochemical concepts through the exploration of real-world data from rivers across North America.</span>
+    <span class="gallery-tags"><span class="gallery-tag">hydrology</span><span class="gallery-tag">geochemistry</span><span class="gallery-tag">teaching</span></span>
+    <span class="gallery-tags"><span class="gallery-tag gallery-tag-tool">interactive app</span></span>
   </a>
 </div>

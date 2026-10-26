@@ -512,6 +512,35 @@ body:has(.resource-gallery > span[data-state="open"]) [data-radix-popper-content
     -webkit-box-orient: vertical;
 }
 
+.gallery-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    max-height: 1.2rem;
+    margin-top: 0.4rem;
+    overflow: hidden;
+}
+
+.gallery-description .gallery-tags {
+    margin-top: auto;
+    padding-top: 0.4rem;
+    max-height: 1.6rem;
+}
+
+.gallery-tag {
+    padding: 0 0.4rem;
+    border-radius: 4px;
+    background: rgba(128, 128, 128, 0.18);
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    opacity: 0.85;
+}
+
+.gallery-tag-tool {
+    background: rgba(56, 139, 253, 0.2);
+}
+
 .dark .gallery-card {
     border-color: rgba(226, 232, 240, 0.14);
     background: #0f1c28;
