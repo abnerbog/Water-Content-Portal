@@ -22,9 +22,6 @@ Structured Academic Curriculum provides semester-long paths, syllabi, and lectur
 
 ## Available Resources
 
-:::{searchfilter} .resource-gallery .gallery-card
-:::
-
 <div class="resource-gallery">
   <a class="gallery-card" href="/hydroinformatics">
     <img class="gallery-cover" src="../images/thumbnails/hydroinformatics.png" alt="" />
