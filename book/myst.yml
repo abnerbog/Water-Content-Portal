@@ -3,7 +3,7 @@ version: 1
 project:
   id: cuahsi-open-learning-platform
   plugins:
-    - https://github.com/jupyter-book/myst-plugins/raw/refs/heads/main/plugins/searchfilter/searchfilter.mjs
+    - https://raw.githubusercontent.com/jupyter-book/myst-plugins/main/plugins/searchfilter/searchfilter.mjs
   affiliations:
     - id: cuahsi-affiliation
       name: CUAHSI - Consortium of Universities for the Advancement of Hydrologic Science, Inc.
