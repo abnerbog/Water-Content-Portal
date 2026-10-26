@@ -560,3 +560,92 @@ body:has(.resource-gallery > span[data-state="open"]) [data-radix-popper-content
         transition: none;
     }
 }
+
+/* Frontmatter Scoped by .portal-page-marker so externally sourced books keep the default header. */
+body:has(.portal-page-marker) #skip-to-frontmatter {
+    --fm-ink: #0f2e44;
+    --fm-muted: #5c6e78;
+    --fm-accent: #1f6fb2;
+    --fm-surface: linear-gradient(180deg, #f3f8fc 0%, #e8f1f9 100%);
+    --fm-line: rgba(15, 46, 68, 0.1);
+    --fm-pill: rgba(31, 111, 178, 0.1);
+    margin: 1.25rem 0 2rem 0;
+    padding: 1rem 1.5rem 1.25rem;
+    border: 1px solid var(--fm-line);
+    border-top: 4px solid var(--fm-accent);
+    border-radius: 12px;
+    background: var(--fm-surface);
+}
+
+.dark body:has(.portal-page-marker) #skip-to-frontmatter {
+    --fm-ink: #e2e8f0;
+    --fm-muted: #a9b9c4;
+    --fm-accent: #7fc0ee;
+    --fm-surface: linear-gradient(180deg, #11273a 0%, #0f1c28 100%);
+    --fm-line: rgba(226, 232, 240, 0.12);
+    --fm-pill: rgba(127, 192, 238, 0.14);
+}
+
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-block-header {
+    margin-bottom: 0.6rem;
+    color: var(--fm-muted);
+}
+
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-block-subject {
+    font-size: 0.75rem;
+    font-variant: normal;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--fm-accent);
+}
+
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-block-title {
+    margin: 0 !important;
+    font-size: clamp(1.6rem, 2.6vw, 2rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--fm-ink);
+}
+
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-block-subtitle {
+    margin: 0.35rem 0 0 0 !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--fm-muted);
+}
+
+/* Author and date as pills on one row */
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-authors-affiliations,
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-block-date-doi {
+    display: inline-flex;
+    margin: 1rem 0.4rem 0 0 !important;
+    vertical-align: middle;
+}
+
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-authors-grid {
+    display: flex;
+}
+
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-affiliation-col {
+    display: none;
+}
+
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-author,
+body:has(.portal-page-marker) #skip-to-frontmatter .myst-fm-date-string {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    background: var(--fm-pill);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--fm-ink);
+}
+
+@media (max-width: 640px) {
+    body:has(.portal-page-marker) #skip-to-frontmatter {
+        padding: 0.9rem 1rem 1rem;
+    }
+}
