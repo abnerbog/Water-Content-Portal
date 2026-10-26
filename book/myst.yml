@@ -50,8 +50,11 @@ project:
     - file: impact-stories/impact-stories.md
     - file: local_build.md
       hidden: true
-    - file: contribute.md
-      hidden: true
+    # - file: contribute.md
+    #   children:
+    #     - file: contribute-platform-edits.md
+    #     - file: contribute-existing-content.md
+    #     - file: contribute-content-updates.md
     - file: how-to-cite.md
       hidden: true
     - file: making-content-citable.md
@@ -80,7 +83,15 @@ site:
         - title: Impact Stories
           url: /impact-stories
     - title: Contribute
-      url: /contribute
+      children:
+        - title: Overview
+          url: /contribute
+        - title: Suggesting a Platform Edit
+          url: /contribute-platform-edits
+        - title: Requesting to Add Existing Content
+          url: /contribute-existing-content
+        - title: Keeping Your Portal Content Up to Date
+          url: /contribute-content-updates
     - title: Cite
       children:
         - title: How to Cite
