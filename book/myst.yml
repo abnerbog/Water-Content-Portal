@@ -50,11 +50,14 @@ project:
     - file: impact-stories/impact-stories.md
     - file: local_build.md
       hidden: true
-    # - file: contribute.md
-    #   children:
-    #     - file: contribute-platform-edits.md
-    #     - file: contribute-existing-content.md
-    #     - file: contribute-content-updates.md
+    - file: contribute.md
+      hidden: true
+    - file: contribute-platform-edits.md
+      hidden: true
+    - file: contribute-existing-content.md
+      hidden: true
+    - file: contribute-content-updates.md
+      hidden: true
     - file: how-to-cite.md
       hidden: true
     - file: making-content-citable.md
