@@ -479,3 +479,110 @@ a:hover > .home-arrow,
         transform: none;
     }
 }
+
+/*"Available Resources" gallery */
+.resource-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    margin: 1.25rem 0 2rem 0;
+}
+
+/* Suppress MyST's page-preview popup while it belongs to a gallery card */
+body:has(.resource-gallery > span[data-state="open"]) [data-radix-popper-content-wrapper]:has(.hover-card-content) {
+    display: none !important;
+}
+
+.gallery-card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0.5rem 1rem 0.75rem;
+    border: 1px solid rgba(15, 33, 43, 0.15);
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(15, 33, 43, 0.12);
+    color: inherit !important;
+    font-weight: normal;
+    text-decoration: none !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.gallery-card:focus-visible {
+    outline: 3px solid #7fc0ee;
+    outline-offset: 3px;
+}
+
+.gallery-cover {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 0.5rem 0 !important;
+    padding: 0.6rem;
+    border-radius: 8px;
+    background: rgba(128, 128, 128, 0.12);
+}
+
+.gallery-title {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.gallery-description {
+    display: -webkit-box;
+    margin: 0.25rem 0;
+    overflow: hidden;
+    opacity: 0.8;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.gallery-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    max-height: 1.2rem;
+    margin-top: 0.4rem;
+    overflow: hidden;
+}
+
+.gallery-description .gallery-tags {
+    margin-top: auto;
+    padding-top: 0.4rem;
+    max-height: 1.6rem;
+}
+
+.gallery-tag {
+    padding: 0 0.4rem;
+    border-radius: 4px;
+    background: rgba(128, 128, 128, 0.18);
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    opacity: 0.85;
+}
+
+.gallery-tag-tool {
+    background: rgba(56, 139, 253, 0.2);
+}
+
+.dark .gallery-card {
+    border-color: rgba(226, 232, 240, 0.14);
+    background: #0f1c28;
+    box-shadow: 0 10px 25px -10px rgba(0, 0, 0, 0.6);
+}
+
+.dark .gallery-card:hover {
+    border-color: #7fc0ee;
+}
+
+.dark .gallery-cover {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-card {
+        transition: none;
+    }
+}
