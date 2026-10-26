@@ -73,32 +73,6 @@ body:has(.no-sidebar-marker) .myst-primary-sidebar-pointer {
     display: none !important;
 }
 
-/* Resource pages: show only the active resource + its children in the left sidebar */
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > div[data-state="open"] a[aria-current="page"]) .myst-primary-sidebar-topnav,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-topnav,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-topnav,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-topnav,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > div[data-state="open"] a[aria-current="page"]) + .my-3.border-b-2,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/code-labs"]) + .my-3.border-b-2,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/workshops"]) + .my-3.border-b-2,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/impact-stories"]) + .my-3.border-b-2 {
-    display: none !important;
-}
-
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > div[data-state="open"] a[aria-current="page"]) .myst-primary-sidebar-toc .myst-toc > *,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-toc .myst-toc > *,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-toc .myst-toc > *,
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-toc .myst-toc > * {
-    display: none !important;
-}
-
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > div[data-state="open"] a[aria-current="page"]) .myst-primary-sidebar-toc .myst-toc > div[data-state="open"],
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/code-labs"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/code-labs"],
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/workshops"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/workshops"],
-.myst-primary-sidebar-nav:has(.myst-primary-sidebar-toc .myst-toc > a[aria-current="page"][href^="/impact-stories"]) .myst-primary-sidebar-toc .myst-toc > a[href^="/impact-stories"] {
-    display: block !important;
-}
-
 /* Home page (splash) */
 .home-hero,
 .home-stats,

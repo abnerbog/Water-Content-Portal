@@ -32,7 +32,7 @@ date: 2026-03-23
     <span class="gallery-tags"><span class="gallery-tag">hydrology</span><span class="gallery-tag">statistics</span><span class="gallery-tag">geospatial</span><span class="gallery-tag">modeling</span></span>
     <span class="gallery-tags"><span class="gallery-tag gallery-tag-tool">r</span><span class="gallery-tag gallery-tag-tool">dataRetrieval</span></span>
   </a>
-  <a class="gallery-card" href="/analytical-groundwater-modeling">
+    <a class="gallery-card" href="/analytical-groundwater-modeling">
     <img class="gallery-cover" src="../images/thumbnails/analytical-groundwater-modeling.png" alt="" />
     <span class="gallery-title">Analytical Groundwater Modeling</span>
     <span class="gallery-description">A hands-on introduction to groundwater flow and analytical modeling, with interactive Python examples and exercises.</span>
