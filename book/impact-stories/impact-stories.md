@@ -6,8 +6,6 @@ subtitle: "Contextualizing theory with real-world complexities through case stud
 
 <div class="portal-page-marker"></div>
 
-[🏠 Back to Home](/)
-
 ## Available Resources
 
 There are no resources currently available under this category. Check back soon!

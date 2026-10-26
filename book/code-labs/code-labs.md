@@ -6,8 +6,6 @@ subtitle: "The \"Workbench\" for applied technical skills and reproducible scien
 
 <div class="portal-page-marker"></div>
 
-[🏠 Back to Home](/)
-
 ## Available Resources
 
 <div class="resource-gallery">

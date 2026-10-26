@@ -1,12 +1,10 @@
 ---
 subject: Resources
 title: Workshops
-subtitle: "Short modules and technical webinars for rapid learning and professional development."
+subtitle: "Short modules for rapid learning and professional development."
 ---
 
 <div class="portal-page-marker"></div>
-
-[🏠 Back to Home](/)
 
 ## Available Resources
 
