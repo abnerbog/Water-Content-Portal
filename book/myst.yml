@@ -62,6 +62,8 @@ project:
     code: MIT
 site:
   template: book-theme
+  parts:
+    footer: _parts/footer.md
   nav:
     - title: Home
       url: /index
