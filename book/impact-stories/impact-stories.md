@@ -8,6 +8,4 @@ site:
 
 <div class="portal-page-marker"></div>
 
-## Available Resources
-
 There are no resources currently available under this category. Check back soon!

@@ -8,8 +8,6 @@ site:
 
 <div class="portal-page-marker"></div>
 
-## Available Resources
-
 <div class="resource-gallery">
   <a class="gallery-card" href="/hydroinformatics">
     <img class="gallery-cover" src="../images/thumbnails/hydroinformatics.png" alt="" />
