@@ -473,6 +473,17 @@ a:hover > .home-arrow,
     }
 }
 
+/*
+  Disable MyST's built-in hover-card link previews (the floating thumbnail +
+  title popup shown when hovering internal links, e.g. the hero "Explore
+  resources" button or the resource cards). Links remain fully clickable;
+  only the popup preview is suppressed.
+*/
+.hover-card-content {
+    display: none !important;
+    pointer-events: none !important;
+}
+
 /*"Available Resources" gallery */
 .resource-gallery {
     display: grid;
