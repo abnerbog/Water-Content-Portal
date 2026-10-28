@@ -1,7 +1,6 @@
 ---
 subject: Contributing Overview
 title: Guide for Contributing to the CUAHSI Water Content Portal
-subtitle: "Help grow the portal by suggesting edits or adding your own water science learning materials."
 ---
 
 <div class="portal-page-marker"></div>
