@@ -51,28 +51,6 @@ site:
   -->
 </div>
 
-<div class="home-section" aria-label="Who the portal is for">
-  <span class="home-kicker">Who it's for</span>
-  <div class="home-heading">Wherever you are in water science, start here.</div>
-  <div class="home-audience">
-    <div class="home-audience-card">
-      <span class="home-step">Use it</span>
-      <div class="home-card-title">Learners</div>
-      <p>Work through hands-on lessons and notebooks at your own pace, using real hydrologic data in R and Python.</p>
-    </div>
-    <div class="home-audience-card">
-      <span class="home-step">Teach it</span>
-      <div class="home-card-title">Educators</div>
-      <p>Adopt openly licensed modules in your courses and workshops, from a single activity to a full semester.</p>
-    </div>
-    <div class="home-audience-card">
-      <span class="home-step">Join it</span>
-      <div class="home-card-title">Authors</div>
-      <p>Host your materials alongside the community's, make them citable, and see how far they travel.</p>
-    </div>
-  </div>
-</div>
-
 <div class="home-section" aria-label="Explore resources">
   <span class="home-kicker">Explore</span>
   <div class="home-heading">Five kinds of resources, one place.</div>
@@ -106,6 +84,28 @@ site:
       <div class="card-title"><a href="/impact-stories">Impact Stories</a></div>
       <p>Real-world case studies and reports contextualizing water science theory.</p>
       <span class="card-go">Read impact stories <span class="home-arrow">→</span></span>
+    </div>
+  </div>
+</div>
+
+<div class="home-section" aria-label="Who the portal is for">
+  <span class="home-kicker">Who it's for</span>
+  <div class="home-heading">Wherever you are in water science, start here.</div>
+  <div class="home-audience">
+    <div class="home-audience-card">
+      <span class="home-step">Use it</span>
+      <div class="home-card-title">Learners</div>
+      <p>Work through hands-on lessons and notebooks at your own pace, using real hydrologic data in R and Python.</p>
+    </div>
+    <div class="home-audience-card">
+      <span class="home-step">Teach it</span>
+      <div class="home-card-title">Educators</div>
+      <p>Adopt openly licensed modules in your courses and workshops, from a single activity to a full semester.</p>
+    </div>
+    <div class="home-audience-card">
+      <span class="home-step">Join it</span>
+      <div class="home-card-title">Authors</div>
+      <p>Host your materials alongside the community's, make them citable, and see how far they travel.</p>
     </div>
   </div>
 </div>
