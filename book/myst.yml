@@ -87,7 +87,7 @@ site:
         #   url: /impact-stories
     - title: Contribute
       children:
-        - title: Overview
+        - title: Contributing Overview
           url: /contribute
         - title: Suggesting a Platform Edit
           url: /contribute-platform-edits
