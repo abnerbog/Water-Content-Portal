@@ -2,6 +2,8 @@
 subject: Resources
 title: Code Labs
 subtitle: "The \"Workbench\" for applied technical skills and reproducible science."
+site:
+  hide_footer_links: true
 ---
 
 <div class="portal-page-marker"></div>

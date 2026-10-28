@@ -2,6 +2,8 @@
 subject: Resources
 title: Courseware
 subtitle: "Structured Academic Curriculum provides semester-long paths, syllabi, and lectures."
+site:
+  hide_footer_links: true
 ---
 
 <div class="portal-page-marker"></div>

@@ -1,11 +1,9 @@
 ---
 title: CUAHSI Water Content Portal
-authors:
-  id: cuahsi
-date: 2026-03-23
 site:
   hide_toc: true
   hide_outline: true
+  hide_footer_links: true
 ---
 
 <div class="home-hero" aria-label="CUAHSI Water Content Portal">
