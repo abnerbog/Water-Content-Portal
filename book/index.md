@@ -73,17 +73,17 @@ site:
       <p>Short modules and technical webinars designed for rapid upskilling.</p>
       <span class="card-go">See workshops <span class="home-arrow">→</span></span>
     </div>
-    <div class="resource-card">
+    <div class="resource-card resource-card-disabled">
       <span class="card-kicker">Field protocols &amp; data policies</span>
-      <div class="card-title"><a href="/standards-and-protocols">Standards &amp; Protocols</a></div>
+      <div class="card-title">Standards &amp; Protocols</div>
       <p>Standard operating procedures and technical manuals ensuring data quality.</p>
-      <span class="card-go">Read protocols <span class="home-arrow">→</span></span>
+      <span class="card-go">Coming soon</span>
     </div>
-    <div class="resource-card">
+    <div class="resource-card resource-card-disabled">
       <span class="card-kicker">Case studies &amp; reports</span>
-      <div class="card-title"><a href="/impact-stories">Impact Stories</a></div>
+      <div class="card-title">Impact Stories</div>
       <p>Real-world case studies and reports contextualizing water science theory.</p>
-      <span class="card-go">Read impact stories <span class="home-arrow">→</span></span>
+      <span class="card-go">Coming soon</span>
     </div>
   </div>
 </div>
