@@ -9,7 +9,7 @@ site:
 <div class="home-hero" aria-label="CUAHSI Water Content Portal">
   <div class="home-hero-inner">
     <div class="home-title">Open learning materials for the <span class="home-title-accent">water sciences</span></div>
-    <div class="home-blurb">A community-built, living resource where water researchers and educators host, share, and get credit for courseware, code labs, workshops, protocols, and impact stories.</div>
+    <div class="home-blurb">A community-built, free and living resource where water scientists host, share, and get credit for their open learning materials for research and education purposes.</div>
     <div class="home-actions">
       <a class="home-btn home-btn-primary" href="/courseware">Explore resources <span class="home-arrow">→</span></a>
       <a class="home-btn home-btn-ghost" href="/contribute">Contribute yours</a>
