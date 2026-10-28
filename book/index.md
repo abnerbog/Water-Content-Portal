@@ -53,7 +53,7 @@ site:
 
 <div class="home-section" aria-label="Explore resources">
   <span class="home-kicker">Explore</span>
-  <div class="home-heading">Five kinds of resources, one place.</div>
+  <div class="home-heading">Diverse types of resources, one place.</div>
   <div class="resource-grid">
     <div class="resource-card">
       <span class="card-kicker">Structured academic curriculum</span>
